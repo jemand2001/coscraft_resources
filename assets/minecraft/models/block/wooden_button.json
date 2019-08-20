@@ -1,7 +1,7 @@
 {
 	"ambientocclusion": false,
 	"textures": {
-		"plant": "ash_cover",
+		"plant": "block/ash_cover",
 		"particle": "block/ash_cover"
 	},
 	"elements": [
