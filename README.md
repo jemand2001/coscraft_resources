@@ -1,7 +1,7 @@
 ﻿# CosCraft resource pack
 
 The official add-on resource pack for the **CosCraft** (Cosmere in Minecraft) project. Based on and designed for use *on top of* the **Excalibur** resource pack!
-*Currently only available for Minecraft 1.14*
+*Currently available for Minecraft 1.12 and 1.14*
 
 ## Installation
 
