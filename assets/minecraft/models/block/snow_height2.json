@@ -1,7 +1,7 @@
 {   "parent": "block/thin_block",
     "textures": {
-        "particle": "block/ash_cover",
-        "texture": "block/ash_cover"
+        "particle": "blocks/ash_cover",
+        "texture": "blocks/ash_cover"
     },
     "elements": [
         {   "from": [ 0, 0, 0 ],
