@@ -1,0 +1,13 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "items/wood_sword"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, -90, 70],
+			"translation": [-0.25, 6.25, -2]
+		}
+	}
+}
