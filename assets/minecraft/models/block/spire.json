@@ -13,8 +13,8 @@
     },
     "ambientocclusion": false,
     "textures": {
-        "spire": "block/spire",
-        "particle": "block/spire"
+        "spire": "blocks/spire",
+        "particle": "blocks/spire"
     },
     "elements": [
         {
