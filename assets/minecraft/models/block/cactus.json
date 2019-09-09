@@ -1,0 +1,51 @@
+{
+    "__createdwith": "opl's Model Creator",
+    "ambientocclusion": false,
+	"parent": "block/block",		
+    "textures": {
+        "side": "blocks/cactus_side",
+        "top": "blocks/cactus_top",
+        "bottom": "blocks/cactus_bottom",
+        "particle": "blocks/cactus_side"
+    },
+    "elements": [
+        {
+            "from": [0,0,0],
+            "to": [16,16,16],
+            "faces": {
+                "up": {
+                    "texture": "#top",
+                    "cullface": "up"
+                },
+                "down": {
+                    "texture": "#bottom",
+                    "cullface": "down"
+                }
+            }
+        },
+        {
+            "from": [0,0,1],
+            "to": [16,16,15],
+            "faces": {
+                "north": {
+                    "texture": "#side"
+                },
+                "south": {
+                    "texture": "#side"
+                }
+            }
+        },
+        {
+            "from": [1,0,0],
+            "to": [15,16,16],
+            "faces": {
+                "west": {
+                    "texture": "#side"
+                },
+                "east": {
+                    "texture": "#side"
+                }
+            }
+        }
+    ]
+}

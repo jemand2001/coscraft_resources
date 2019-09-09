@@ -1,0 +1,9 @@
+{
+    "variants": {
+        "normal": [	
+            { "model": "foliage/flowers/allium", "weight": 10 },
+            { "model": "foliage/flowers/allium1", "weight": 10 }
+        ]
+    }
+}
+			

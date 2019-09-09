@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "normal": [
+			{ "model": "spruce_planks" , "weight": 30 },
+			{ "model": "planks/spruce/spruce1" , "weight": 20 },
+			{ "model": "planks/spruce/spruce2" , "weight": 20 },
+			{ "model": "planks/spruce/spruce3" , "weight": 10 }
+		]
+    }
+}

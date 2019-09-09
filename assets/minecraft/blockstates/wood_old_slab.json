@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "half=bottom": { "model": "furniture/chair_wood" },
+        "half=top": { "model": "furniture/table" }
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "variants": {
+        "snowy=false": [
+            { "model": "podzol", "weight": 15 },
+            { "model": "dirt/podzol1", "weight": 5 }
+        ],
+        "snowy=true":  { "model": "grass_snowed" }
+    }
+}

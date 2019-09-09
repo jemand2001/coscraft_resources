@@ -1,0 +1,207 @@
+{
+	"credit": "Made with Blockbench, a free, modern block model editor by JannisX11",
+	"parent": "block/block",
+	"textures": {
+		"0": "blocks/fence_dark_oak",
+		"texture": "blocks/fence_gate_dark_oak",
+		"particle": "blocks/fence_gate_dark_oak"
+	},
+	"elements": [
+		{
+			"name": "cube",
+			"from": [0, 2, 6],
+			"to": [3, 16, 10],
+			"faces": {
+				"north": {
+					"uv": [13, 2, 16, 16],
+					"texture": "#texture"
+				},
+				"east": {"uv": [6, 0, 10, 14], "texture": "#0"},
+				"south": {
+					"uv": [0, 2, 3, 16],
+					"texture": "#texture"
+				},
+				"west": {
+					"uv": [6, 0, 10, 14],
+					"texture": "#0",
+					"cullface": "west"
+				},
+				"up": {
+					"uv": [13, 6, 16, 10],
+					"texture": "#texture"
+				},
+				"down": {"uv": [0, 6, 3, 10], "texture": "#texture"}
+			},
+			"__comment": "Left-hand post"
+		},
+		{
+			"name": "cube",
+			"from": [13, 2, 6],
+			"to": [16, 16, 10],
+			"faces": {
+				"north": {
+					"uv": [0, 2, 3, 16],
+					"texture": "#texture"
+				},
+				"east": {
+					"uv": [6, 0, 10, 14],
+					"texture": "#0",
+					"cullface": "east"
+				},
+				"south": {
+					"uv": [13, 2, 16, 16],
+					"texture": "#texture"
+				},
+				"west": {"uv": [6, 0, 10, 14], "texture": "#0"},
+				"up": {"uv": [0, 6, 3, 10], "texture": "#texture"},
+				"down": {
+					"uv": [13, 6, 16, 10],
+					"texture": "#texture"
+				}
+			},
+			"__comment": "Right-hand post"
+		},
+		{
+			"name": "cube",
+			"from": [6, 3, 7],
+			"to": [8, 15, 9],
+			"faces": {
+				"north": {
+					"uv": [6, 1, 8, 13],
+					"texture": "#texture"
+				},
+				"east": {
+					"uv": [7, 1, 9, 13],
+					"texture": "#texture"
+				},
+				"south": {
+					"uv": [6, 1, 8, 13],
+					"texture": "#texture"
+				},
+				"west": {
+					"uv": [7, 1, 9, 13],
+					"texture": "#texture"
+				},
+				"up": {"uv": [6, 7, 8, 9], "texture": "#texture"},
+				"down": {"uv": [6, 7, 8, 9], "texture": "#texture"}
+			},
+			"__comment": "Inner vertical post of left-hand gate door"
+		},
+		{
+			"name": "cube",
+			"from": [8, 3, 7],
+			"to": [10, 15, 9],
+			"faces": {
+				"north": {
+					"uv": [8, 1, 10, 13],
+					"texture": "#texture"
+				},
+				"east": {
+					"uv": [7, 1, 9, 13],
+					"texture": "#texture"
+				},
+				"south": {
+					"uv": [8, 1, 10, 13],
+					"texture": "#texture"
+				},
+				"west": {
+					"uv": [7, 1, 9, 13],
+					"texture": "#texture"
+				},
+				"up": {"uv": [8, 7, 10, 9], "texture": "#texture"},
+				"down": {"uv": [8, 7, 10, 9], "texture": "#texture"}
+			},
+			"__comment": "Inner vertical post of right-hand gate door"
+		},
+		{
+			"name": "cube",
+			"from": [2, 3, 7],
+			"to": [6, 6, 9],
+			"faces": {
+				"north": {
+					"uv": [10, 10, 14, 13],
+					"texture": "#texture"
+				},
+				"south": {
+					"uv": [2, 10, 6, 13],
+					"texture": "#texture"
+				},
+				"up": {"uv": [2, 7, 6, 9], "texture": "#texture"},
+				"down": {"uv": [2, 7, 6, 9], "texture": "#texture"}
+			},
+			"__comment": "Lower horizontal bar of left-hand gate door"
+		},
+		{
+			"name": "cube",
+			"from": [2, 12, 7],
+			"to": [6, 15, 9],
+			"faces": {
+				"north": {
+					"uv": [10, 1, 14, 4],
+					"texture": "#texture"
+				},
+				"south": {
+					"uv": [2, 1, 6, 4],
+					"texture": "#texture"
+				},
+				"up": {"uv": [2, 7, 6, 9], "texture": "#texture"},
+				"down": {"uv": [2, 7, 6, 9], "texture": "#texture"}
+			},
+			"__comment": "Upper horizontal bar of left-hand gate door"
+		},
+		{
+			"name": "cube",
+			"from": [10, 3, 7],
+			"to": [14, 6, 9],
+			"faces": {
+				"north": {
+					"uv": [2, 10, 6, 13],
+					"texture": "#texture"
+				},
+				"south": {
+					"uv": [10, 10, 14, 13],
+					"texture": "#texture"
+				},
+				"up": {"uv": [10, 7, 14, 9], "texture": "#texture"},
+				"down": {
+					"uv": [10, 7, 14, 9],
+					"texture": "#texture"
+				}
+			},
+			"__comment": "Lower horizontal bar of right-hand gate door"
+		},
+		{
+			"name": "cube",
+			"from": [10, 12, 7],
+			"to": [14, 15, 9],
+			"faces": {
+				"north": {
+					"uv": [2, 1, 6, 4],
+					"texture": "#texture"
+				},
+				"south": {
+					"uv": [10, 1, 14, 4],
+					"texture": "#texture"
+				},
+				"up": {"uv": [10, 7, 14, 9], "texture": "#texture"},
+				"down": {
+					"uv": [10, 7, 14, 9],
+					"texture": "#texture"
+				}
+			},
+			"__comment": "Upper horizontal bar of right-hand gate door"
+		}
+	],
+	"display": {
+		"gui": {
+			"rotation": [30, 45, 0],
+			"translation": [0, -1, 0],
+			"scale": [0.8, 0.8, 0.8]
+		},
+		"head": {
+			"rotation": [0, 0, 0],
+			"translation": [0, -3, -6],
+			"scale": [1, 1, 1]
+		}
+	}
+}

@@ -1,0 +1,42 @@
+{
+	"credit": "Made with Blockbench, a free, modern block model editor by JannisX11",
+	"textures": {
+		"0": "blocks/door_spruce_side",
+		"particle": "blocks/door_spruce_lower"
+	},
+	"elements": [
+		{
+			"name": "cube",
+			"from": [0, 0, 0],
+			"to": [3, 16, 16],
+			"faces": {
+				"north": {
+					"uv": [11, 0, 8, 16],
+					"texture": "#0",
+					"cullface": "north"
+				},
+				"east": {
+					"uv": [16, 0, 0, 16],
+					"texture": "#particle"
+				},
+				"south": {
+					"uv": [12, 0, 15, 16],
+					"texture": "#0",
+					"cullface": "south"
+				},
+				"west": {
+					"uv": [0, 0, 16, 16],
+					"texture": "#particle",
+					"cullface": "west"
+				},
+				"down": {
+					"uv": [0, 13, 16, 16],
+					"texture": "#particle",
+					"cullface": "down",
+					"rotation": 90
+				}
+			}
+		}
+	],
+	"ambientocclusion": false
+}

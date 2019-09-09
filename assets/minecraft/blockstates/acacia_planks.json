@@ -1,0 +1,9 @@
+{
+    "variants": {
+        "normal": [
+			{ "model": "acacia_planks" , "weight": 1 },
+			{ "model": "planks/acacia/acacia1" , "weight": 1 },
+			{ "model": "planks/acacia/acacia2" , "weight": 10 }
+		]
+    }
+}

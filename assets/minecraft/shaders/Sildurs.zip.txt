@@ -1,0 +1,8 @@
+#
+bloom_strength=0.5
+Moonshading=false
+SSDO=true
+Waving_Vines=false
+watertex=true
+Godrays_Density=0.575
+Colorboost=0.04

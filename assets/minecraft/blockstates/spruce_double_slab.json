@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "normal": [
+			{ "model": "planks/spruce/doubleslab" }
+		]
+    }
+}

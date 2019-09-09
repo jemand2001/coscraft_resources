@@ -1,0 +1,9 @@
+{
+    "variants": {
+        "normal": [	
+            { "model": "foliage/flowers/dandelion", "weight": 10 },
+            { "model": "foliage/flowers/dandelion1", "weight": 5 }
+        ]
+    }
+}
+			

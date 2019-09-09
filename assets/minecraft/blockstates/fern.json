@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "normal": [
+        { "model": "fern", "weight": 60 },
+        { "model": "foliage/fern/fern1", "weight": 30 },
+        { "model": "foliage/fern/fern2", "weight": 15 },
+        { "model": "foliage/fern/fern3", "weight": 15 }
+        ]
+    }
+}

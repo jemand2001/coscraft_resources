@@ -1,0 +1,6 @@
+{
+	"parent": "block/sapling",
+	"textures": {
+		"sapling": "blocks/sapling_roofed_oak"
+			}
+}
